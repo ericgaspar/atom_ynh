@@ -16,7 +16,7 @@ license = "free"
 website = "https://www.accesstomemory.org/fr/"
 demo = "https://demo.accesstomemory.org/"
 userdoc = "https://www.accesstomemory.org/fr/docs/2.8/"
-code = "https://some.forge.com/example/example"
+code = "https://github.com/artefactual/atom"
 
 [integration]
 yunohost = ">= 11.2"
@@ -56,8 +56,9 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://storage.accesstomemory.org/releases/atom-2.8.2.tar.gz"
-    sha256 = "98ab91eec0e966c8f7b374ae60e3e18f80e383d608459db9e89dca896f675f4d"
+    #url = "https://storage.accesstomemory.org/releases/atom-2.8.2.tar.gz"
+    url = "https://github.com/artefactual/atom/archive/refs/tags/v2.8.2.tar.gz"
+    sha256 = "24ee1d4d276d85a8a469e3acd26a3f13bbdc52f290e46a15dd3f57b76d5565b4"
 
     [resources.system_user]
 

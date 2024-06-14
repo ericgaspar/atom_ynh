@@ -56,7 +56,6 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    in_subdir = 2
     url = "https://storage.accesstomemory.org/releases/atom-2.8.2.tar.gz"
     sha256 = "98ab91eec0e966c8f7b374ae60e3e18f80e383d608459db9e89dca896f675f4d"
 

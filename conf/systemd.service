@@ -10,7 +10,7 @@ StartLimitBurst=3
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__INSTALL_DIR__/
+WorkingDirectory=__INSTALL_DIR__/atom-2.8.2/
 ExecStart=/usr/bin/php__PHPVERSION__ -d memory_limit=-1 -d error_reporting="E_ALL" symfony jobs:worker
 KillSignal=SIGTERM
 Restart=on-failure

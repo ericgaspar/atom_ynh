@@ -62,7 +62,7 @@ pushd "$install_dir"
 	  --database-name=$db_name \
 	  --database-user=$db_user \
 	  --database-password=$db_pwd \
-	  --search-host=127.0.0.1 \
+	  --search-host=0.0.0.0 \
 	  --search-port=9200 \
 	  --search-index=atom \
 	  --site-title=AtoM \

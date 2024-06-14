@@ -54,6 +54,8 @@ pushd "$install_dir"
 	  --database-name=$db_name \
 	  --database-user=$db_user \
 	  --database-password=$db_pwd \
+	  --search-host=localhost \
+	  --search-port=9200 \
 	  --search-index=atom \
 	  --site-title=AtoM \
 	  --site-description='Access to Memory' \
@@ -64,9 +66,6 @@ pushd "$install_dir"
 	  --no-confirmation
 popd
 
-	  #--search-host=elasticsearch \
-	  #--search-port=9200 \
-	  
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================

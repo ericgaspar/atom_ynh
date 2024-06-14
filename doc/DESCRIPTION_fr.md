@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+AtoM est une contraction de l’appellation Access to Memory (accès à la mémoire). C'est une application internet open source pour la description archivistique et l'accès, qui se repose sur les normes et qui est offerte selon un environnement multilingue et à multiples dépôts

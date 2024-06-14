@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+AtoM is a contraction of the name Access to Memory. It is an open source, standards-based, web-based application for archival description and access, delivered in a multilingual, multi-repository environment.

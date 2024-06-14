@@ -46,7 +46,7 @@ yunohost service add "$app" --description="A short description of the app" --log
 #=================================================
 # APP CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring the $app..." --weight=1
+ynh_script_progression --message="Configuring $app..." --weight=1
 
 pushd "$install_dir"
 	php$phpversion symfony tools:install \

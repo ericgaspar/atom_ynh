@@ -56,13 +56,14 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    #url = "https://storage.accesstomemory.org/releases/atom-2.8.2.tar.gz"
     url = "https://github.com/artefactual/atom/archive/refs/tags/v2.8.2.tar.gz"
     sha256 = "24ee1d4d276d85a8a469e3acd26a3f13bbdc52f290e46a15dd3f57b76d5565b4"
 
     [resources.system_user]
 
     [resources.install_dir]
+
+    [resources.data_dir]
 
     [resources.permissions]
     main.url = "/"

@@ -1,0 +1,20 @@
+[Unit]
+Description=AtoM worker
+After=network.target
+# High interval and low restart limit to increase the possibility
+# of hitting the rate limits in long running recurrent jobs.
+StartLimitIntervalSec=24h
+StartLimitBurst=3
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+WorkingDirectory=__INSTALL_DIR__/
+ExecStart=/usr/bin/php__PHPVERSION__ -d memory_limit=-1 -d error_reporting="E_ALL" symfony jobs:worker
+KillSignal=SIGTERM
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

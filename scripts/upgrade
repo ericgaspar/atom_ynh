@@ -43,6 +43,17 @@ ynh_add_fpm_config
 
 ynh_add_nginx_config
 
+ynh_add_systemd_config
+
+yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
+
+#=================================================
+# START SYSTEMD SERVICE
+#=================================================
+ynh_script_progression --message="Starting $app's systemd service..." --weight=1
+
+ynh_systemd_action --service_name="$app" --action="start" --log_path="/var/log/$app/$app.log"
+
 #=================================================
 # END OF SCRIPT
 #=================================================

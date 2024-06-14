@@ -37,18 +37,11 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/example"
+    default = "/atom"
 
     [install.init_main_permission]
     type = "group"
     default = "visitors"
-
-    [install.language]
-    ask.en = "Choose the application language"
-    ask.fr = "Choisissez la langue de l'application"
-    type = "select"
-    choices = ["fr", "en"]
-    default = "fr"
 
     [install.admin]
     type = "user"

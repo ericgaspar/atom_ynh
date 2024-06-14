@@ -50,14 +50,14 @@ php__PHPVERSION__ symfony tools:install \
   --database-port=3306 \
   --database-name=$db_name \
   --database-user=$db_user \
-  --database-password=12345 \
+  --database-password=$db_pwd \
   --search-host=elasticsearch \
   --search-port=9200 \
   --search-index=atom \
   --site-title=AtoM \
   --site-description='Access to Memory' \
   --site-base-url=http://127.0.0.1 \
-  --admin-email=demo@example.com \
+  --admin-email=$admin@$domain \
   --admin-username=$admin \
   --admin-password=$password \
   --no-confirmation
